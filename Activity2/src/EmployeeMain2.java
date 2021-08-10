@@ -32,18 +32,21 @@ public class EmployeeMain2 {
 			case 1:
 				System.out.println("Current name is:"+ emp.getName());
 				System.out.println("Enter the name");
+				scanner.nextLine();
 				s1=scanner.nextLine();
 				emp.setName(s1);
 				break;
 			case 2:	
 				System.out.println("Current address is:"+ emp.getAddress());
 				System.out.println("Enter the address");
+				scanner.nextLine();
 				s1=scanner.nextLine();
 				emp.setAddress(s1);
 				break;	
 			case 3:
 				System.out.println("Current mobile is:"+ emp.getMobile());
 				System.out.println("Enter the mobile");
+				scanner.nextLine();
 				s1=scanner.nextLine();
 				emp.setMobile(s1);
 				break;
